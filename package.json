@@ -1,7 +1,7 @@
 {
   "name": "webkr-react",
   "version": "0.1.0",
-  "homepage": "https://dfranco54.github.io/dfranco54/webrk-react",
+  "homepage": "https://dfranco54.github.io/webrk-react",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
