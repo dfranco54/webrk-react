@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dfranco54/webrk-react/static/css/main.49b7ef7b.css",
+    "main.js": "/dfranco54/webrk-react/static/js/main.b7eb99c0.js",
+    "index.html": "/dfranco54/webrk-react/index.html",
+    "main.49b7ef7b.css.map": "/dfranco54/webrk-react/static/css/main.49b7ef7b.css.map",
+    "main.b7eb99c0.js.map": "/dfranco54/webrk-react/static/js/main.b7eb99c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49b7ef7b.css",
+    "static/js/main.b7eb99c0.js"
+  ]
+}
