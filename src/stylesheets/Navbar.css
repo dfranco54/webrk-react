@@ -12,6 +12,10 @@
 .navbar {
     padding: 10px 20px;
     color: white;
+    border: solid;
+    /* width: 500px;
+    align-items: center;
+    justify-content: center; */
 }
   
 .navbar-container {

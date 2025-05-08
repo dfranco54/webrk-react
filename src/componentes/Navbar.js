@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <img src={LogoUbkt} alt="El logo de la empresa" className='imagen-logo'/>
-        <div className="logo">MiSitio</div>
+        <div className="logo">UBYKR</div>
         <button className="menu-button" onClick={toggleMenu}>
           ☰
         </button>
