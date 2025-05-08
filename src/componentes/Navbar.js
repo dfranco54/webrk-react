@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../stylesheets/Navbar.css';
-import LogoUbkt from '../imagenes/logo.png'
+import LogoUbkt from '../imagenes/logo.png';
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 

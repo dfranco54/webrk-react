@@ -13,9 +13,11 @@
     padding: 10px 20px;
     color: white;
     border: solid;
-    /* width: 500px;
-    align-items: center;
-    justify-content: center; */
+    border-radius: 25px;
+    border-color: #5441a0;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #5441a0;
 }
   
 .navbar-container {
@@ -23,7 +25,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
   
 .logo {
@@ -44,13 +46,23 @@
     display: flex;
     gap: 20px;
 }
-  
+
 .nav-links li a {
     text-decoration: none;
     color: white;
+    border: solid;
+    
+}
+
+.nav-links li a:hover {
+    color: black;
 }
   
 @media screen and (max-width: 768px) {
+    .navbar{
+        width: auto;
+    }
+
     .menu-button {
       display: block;
     }
