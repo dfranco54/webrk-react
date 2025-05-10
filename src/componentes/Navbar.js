@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import '../stylesheets/Navbar.css';
 import LogoUbkt from '../imagenes/logo.png';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  const links = [
+    { label: 'Inicio', href: '/' },
+    { label: 'Servicios', href: '/servicios' },
+    { label: 'Contacto', href: '/contacto' },
+  ];
 
   return (
     <nav className="navbar">
@@ -17,9 +24,11 @@ const Navbar = () => {
           ☰
         </button>
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          {links.map((link, index) => (
+            <li key={index}>
+              <Link to={link.href}>{link.label}</Link>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

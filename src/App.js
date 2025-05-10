@@ -1,24 +1,27 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './componentes/navbar.js';
-import ContenedorExtra from './componentes/ContenedorExtra.js';
+
+import Inicio from './pages/Inicio';
+import Servicios from './pages/Servicios';
+import Contacto from './pages/Contacto';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+      </Router>
       
-      <div className='contenedores-informacion'>
-        <ContenedorExtra
-        titulo = 'prueba'
-        textoInterno = 'segunda prueba'/>
-        <ContenedorExtra
-        titulo = 'prueba'
-        textoInterno = 'segunda prueba'/>
-        <ContenedorExtra
-        titulo = 'prueba'
-        textoInterno = 'segunda prueba'/>
-      </div>
+      
+      
       
     </div>
   );
