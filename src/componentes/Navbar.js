@@ -10,9 +10,9 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const links = [
-    { label: 'Inicio', href: 'webrk-react/' },
-    { label: 'Servicios', href: 'webrk-react/servicios' },
-    { label: 'Contacto', href: 'webrk-react/contacto' },
+    { label: 'Inicio', href: '/webrk-react/' },
+    { label: 'Servicios', href: '/webrk-react/servicios' },
+    { label: 'Contacto', href: '/webrk-react/contacto' },
   ];
 
   return (
