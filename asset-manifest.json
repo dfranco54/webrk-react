@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/webrk-react/static/css/main.13dda087.css",
-    "main.js": "/webrk-react/static/js/main.28d4ff2b.js",
+    "main.js": "/webrk-react/static/js/main.76447c7c.js",
     "static/media/logo.png": "/webrk-react/static/media/logo.b1fc052c3ac9ce514c50.png",
     "index.html": "/webrk-react/index.html",
     "main.13dda087.css.map": "/webrk-react/static/css/main.13dda087.css.map",
-    "main.28d4ff2b.js.map": "/webrk-react/static/js/main.28d4ff2b.js.map"
+    "main.76447c7c.js.map": "/webrk-react/static/js/main.76447c7c.js.map"
   },
   "entrypoints": [
     "static/css/main.13dda087.css",
-    "static/js/main.28d4ff2b.js"
+    "static/js/main.76447c7c.js"
   ]
 }
