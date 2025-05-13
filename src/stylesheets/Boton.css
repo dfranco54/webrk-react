@@ -15,3 +15,11 @@
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.boton-descarga:hover{
+    background-color: #92ff98;
+}
+
+.boton-info:hover{
+    background-color: aliceblue;
+}

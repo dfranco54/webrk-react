@@ -2,7 +2,6 @@ import '../stylesheets/Cuerpo.css';
 import ContenedorExtra from '../componentes/ContenedorExtra.js';
 import Cuerpo from '../componentes/Cuerpo.js';
 import contenedores from '../data/contenedores.json';
-import Footer from '../componentes/footer.js';
 import '../stylesheets/Inicio.css';
 
 //Imagen de fondo
@@ -50,9 +49,6 @@ function Inicio (){
           { texto: 'Descargar la app', esDescarga: true, onClick: aFigma },
           { texto: '¿Como Funciona?', esDescarga: false, onClick: aFigma }
           ]}/>
-        </div>
-        <div className='espacio-footer'>
-          <Footer />
         </div>
       </div>
   );     
