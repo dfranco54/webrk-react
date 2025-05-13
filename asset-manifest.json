@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/webrk-react/static/css/main.13dda087.css",
-    "main.js": "/webrk-react/static/js/main.6264e632.js",
+    "main.css": "/webrk-react/static/css/main.b7909cfe.css",
+    "main.js": "/webrk-react/static/js/main.3e99dd9b.js",
     "static/media/logo.png": "/webrk-react/static/media/logo.b1fc052c3ac9ce514c50.png",
+    "static/media/icono-globo.png": "/webrk-react/static/media/icono-globo.defd3208b8b490074fed.png",
+    "static/media/icono-usuariosalt.png": "/webrk-react/static/media/icono-usuariosalt.625819f1b44faf9e1381.png",
+    "static/media/icono-marcador.png": "/webrk-react/static/media/icono-marcador.462a3d6b123d643279be.png",
+    "static/media/icono-corazon.png": "/webrk-react/static/media/icono-corazon.eb80668c7638b9221618.png",
+    "static/media/icono-usuario.png": "/webrk-react/static/media/icono-usuario.5cdfd5220aa1731cfa3e.png",
     "index.html": "/webrk-react/index.html",
-    "main.13dda087.css.map": "/webrk-react/static/css/main.13dda087.css.map",
-    "main.6264e632.js.map": "/webrk-react/static/js/main.6264e632.js.map"
+    "main.b7909cfe.css.map": "/webrk-react/static/css/main.b7909cfe.css.map",
+    "main.3e99dd9b.js.map": "/webrk-react/static/js/main.3e99dd9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.13dda087.css",
-    "static/js/main.6264e632.js"
+    "static/css/main.b7909cfe.css",
+    "static/js/main.3e99dd9b.js"
   ]
 }
