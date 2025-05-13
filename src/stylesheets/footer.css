@@ -1,0 +1,91 @@
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 3rem 5%;
+    color: #eee;
+    background-color: #333; 
+    border-radius: 10px 10px 0 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.divisiones_footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+    border-bottom: 1px solid #555;
+    padding-bottom: 0.5rem;
+}
+
+.divisiones_footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.divisiones_footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.divisiones_footer ul li a {
+    color: #eee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.divisiones_footer ul li a:hover {
+    color: var(--color-principal, #6653b3);
+}
+
+.firma {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.firma img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.firma button {
+    background-color: #6653b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0.5rem;
+}
+
+.firma button:hover {
+    background-color: #988ec2;
+}
+
+.firma small {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center; 
+        padding: 2rem 5%;
+    }
+
+    .divisiones_footer h3 {
+        border-bottom: none;
+        margin-top: 1.5rem;
+    }
+
+    .firma {
+        align-items: center;
+    }
+}

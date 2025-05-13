@@ -1,0 +1,32 @@
+[
+  {
+    "titulo": "Dedícate a parquear",
+    "texto": "Inicia la sesión de parqueo desde tu móvil, sin necesidad de hacer colas.",
+    "icono": "chulo"
+  },
+  {
+    "titulo": "Más libertad",
+    "texto": "Extiende tu tiempo de parqueo y encuentra tu lugar.",
+    "icono": "corazon"
+  },
+  {
+    "titulo": "Parqueo inteligente",
+    "texto": "Finaliza tu sesión de parqueo pulsando un botón y paga al instante.",
+    "icono": "globo"
+  },
+  {
+    "titulo": "Encuentra sitios libres",
+    "texto": "Descubre dónde hay más posibilidades de encontrar un espacio libre.",
+    "icono": "globo"
+  },
+  {
+    "titulo": "Control total",
+    "texto": "Recibe notificaciones, tu historial de parqueo y tus recibos para tenerlo todo controlado.",
+    "icono": "usuario"
+  },
+  {
+    "titulo": "Viaja seguro",
+    "texto": "Descubre nuevos centros comerciales, aparca con la confianza de que encontrarás un lugar.",
+    "icono": "usuariosalt"
+  }
+]

@@ -14,9 +14,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="webrk-react/" element={<Inicio />} />
-          <Route path="webrk-react/servicios" element={<Servicios />} />
-          <Route path="webrk-react/contacto" element={<Contacto />} />
+          <Route path="/webrk-react/" element={<Inicio />} />
+          <Route path="/webrk-react/servicios" element={<Servicios />} />
+          <Route path="/webrk-react/contacto" element={<Contacto />} />
         </Routes>
       </Router>
       

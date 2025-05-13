@@ -1,5 +1,20 @@
 .cuandro-contenedor{
-    width: 200px;
-    height: 200px;
+    display: grid;
     border: solid;
+    padding: 15px;
+    margin: 15px;
+    background-color: #caabfc;
+    border-radius: 25px;
+    align-items: baseline;
+}
+
+.cuandro-contenedor h1 {
+    font-size: 2rem;
+}
+
+.cuandro-contenedor p{
+    font-size: 1.3rem;
+}
+.cuandro-contenedor img{
+    width: 35px;
 }

@@ -1,20 +1,28 @@
-import React from 'react'
+import React from 'react';
 import '../stylesheets/Cuerpo.css';
-import ContenedorExtra from './ContenedorExtra';
+import Boton from '../componentes/Boton.js';
 
-function Cuerpo() {
+
+
+
+function Cuerpo({ claseExtra, imagen, alt, titulo, parrafo, botones = [] }) {
     return(
-        <div className='contenedores-informacion'>
-            <ContenedorExtra
-            titulo = 'prueba'
-            textoInterno = 'segunda prueba'/>
-            <ContenedorExtra
-            titulo = 'prueba'
-            textoInterno = 'segunda prueba'/>
-            <ContenedorExtra
-            titulo = 'prueba'
-            textoInterno = 'segunda prueba'/>     
-        </div>
+    <div className={`hero-principal${claseExtra}`}>
+      <img src={imagen} alt={alt} />
+      <div>
+        <h1>{titulo}</h1>
+        <p>{parrafo}</p>
+        {botones.map((btn, i) => (
+          <Boton
+            key={i}
+            texto={btn.texto}
+            esDescarga={btn.esDescarga}
+            manejarClick={btn.onClick}
+          />
+        ))}
+      </div>
+      
+    </div>
     );
 }
 

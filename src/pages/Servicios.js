@@ -1,6 +1,9 @@
-import ContenedorExtra from '../componentes/ContenedorExtra.js';
 
-const Servicios = () => <ContenedorExtra
-            titulo = 'prueba'
-            textoInterno = 'segunda prueba' />;
+
+function Servicios(){
+    return(
+        <p>que queee</p>
+    );
+}
+
 export default Servicios;

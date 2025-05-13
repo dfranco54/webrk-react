@@ -1,0 +1,43 @@
+.hero-principal {
+     border-radius: 30px;
+
+}
+
+.todo-inicio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 1300px;
+  
+}
+
+.hero-contenedores{
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.hero-contenedores h1{
+    padding: 2rem;
+    font-size: 4rem;
+}
+
+.los-contenedores {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.los-contenedores h1{
+    font-size: 2.8rem;
+}
+
+.los-contenedores > div {
+    padding: 1rem;
+    border: 1px solid #e6d7ff;
+    box-sizing: border-box;
+    overflow: auto;
+}
