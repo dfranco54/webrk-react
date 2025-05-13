@@ -18,3 +18,9 @@
 .cuandro-contenedor img{
     width: 35px;
 }
+
+.contenedores-informacion{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 45px;
+}

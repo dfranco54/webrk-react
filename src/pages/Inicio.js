@@ -28,7 +28,7 @@ function Inicio (){
           ]}/>
         </div>
         <div className='hero-contenedores'>
-          <h1>Ubykr es simple y poderoso</h1>
+          <h1 className='los-contenedores-titulo'>Ubykr es simple y poderoso</h1>
             <div className='los-contenedores'>
               {contenedores.map((c, i) => (
               <ContenedorExtra 
@@ -45,10 +45,7 @@ function Inicio (){
           imagen={imagenHombreGuapo}
           alt="Hombre guapo con telefono"
           titulo="Bájate la aplicación y comienza a parquear de inmediato"
-          parrafo={`Únete a millones de conductores que ya disfrutan de una forma más fácil de encontrar parqueo en centros comerciales
-                  - Más de 450.000 valoraciones de cinco estrellas
-                  - Puntuación media de 4,7 en App Store
-                  -88 % de satisfacción con la atención al cliente`}
+          parrafo={`Únete a millones de conductores que ya disfrutan de una forma más fácil de encontrar parqueo en centros comerciales`}
           botones={[
           { texto: 'Descargar la app', esDescarga: true, onClick: aFigma },
           { texto: '¿Como Funciona?', esDescarga: false, onClick: aFigma }

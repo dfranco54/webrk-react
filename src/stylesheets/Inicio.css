@@ -1,20 +1,9 @@
-.hero-principal {
-     border-radius: 30px;
-
-}
-
-.todo-inicio {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  max-width: 1300px;
-  
+.los-contenedores-titulo{
+    color: black;
 }
 
 .hero-contenedores{
     background-color: aliceblue;
-    border-radius: 15px;
 }
 
 .hero-contenedores h1{
@@ -40,4 +29,46 @@
     border: 1px solid #e6d7ff;
     box-sizing: border-box;
     overflow: auto;
+}
+
+@media (max-width: 992px) {
+    .hero-contenedores h1 {
+        font-size: 3rem;
+    }
+
+    .los-contenedores {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .los-contenedores h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-contenedores h1 {
+        font-size: 2.5rem;
+    }
+
+    .los-contenedores {
+        grid-template-columns: 1fr;
+    }
+
+    .los-contenedores h1 {
+        font-size: 1.8rem;
+    }
+
+    .todo-inicio {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-contenedores h1 {
+        font-size: 2rem;
+    }
+
+    .los-contenedores h1 {
+        font-size: 1.5rem;
+    }
 }
