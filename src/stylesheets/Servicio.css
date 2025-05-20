@@ -1,6 +1,6 @@
 .pagina-servicios {
   padding: 3rem 1rem;
-  color: var(--color-texto);
+  color: white;
 }
 
 .titulo-servicio {
@@ -13,7 +13,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 2rem;  
+}
+
+.hero-principal img{
+  display: none;
 }
 
 .hero-principal.servicio {
@@ -24,4 +28,25 @@
   padding: 1.5rem;
   backdrop-filter: blur(4px);
   max-width: 400px;
+  background-color: #caabfc;
+}
+
+.hero-principal.servicio h1, .hero-principal.servicio p{
+  color: black;
+}
+
+.hero-principal.contenedor-ubykr{
+  margin-top: 20px;
+  text-align: center;
+  text-justify: auto;
+}
+
+.hero-principal.contenedor-ubykr h1{
+  background-color: #8b48c2;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.hero-principal.contenedor-ubykr p{
+  text-wrap: balance;
 }

@@ -29,6 +29,7 @@
     border: 1px solid #e6d7ff;
     box-sizing: border-box;
     overflow: auto;
+    color: black;
 }
 
 @media (max-width: 992px) {

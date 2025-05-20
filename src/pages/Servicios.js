@@ -33,7 +33,7 @@ function Servicios() {
             key={index}
             claseExtra=" servicio"
             imagen={servicio.imagen}
-            alt={servicio.alt}
+            alt=""
             titulo={servicio.titulo}
             parrafo={servicio.parrafo}
           />
@@ -41,11 +41,12 @@ function Servicios() {
       </div>
       <div>
         <Cuerpo
-        claseExtra=""
+        claseExtra=" contenedor-ubykr"
         imagen={null}
-        alt="Jaja no se"
+        alt=""
         titulo="SOBRE UBYKR"
-        parrafo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+        parrafo="Es una aplicación móvil diseñada para revolucionar la forma en que encuentras y gestionas tu parqueo urbano. Con una interfaz simple, rápida y moderna, te permite iniciar, extender y finalizar sesiones de parqueo desde tu celular, sin filas ni confusiones.
+        Encuentra espacios disponibles en tiempo real, recibe notificaciones importantes y lleva un control completo de tu historial y pagos. UBYKR te da la libertad de moverte con confianza, ahorrando tiempo y ganando tranquilidad en cada viaje."/>
       </div>
     </div>
   );
